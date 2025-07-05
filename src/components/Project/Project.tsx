@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import Watericon from "../../Icon/Watericon";
-import RightArrow from "../../Icon/RightArrow";
 
 export const Bubbles = () => {
 
