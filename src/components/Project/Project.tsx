@@ -70,6 +70,12 @@ const Project = () => {
           viewport={{ once: true }}
         >
           <div className=" md:flex md:items-center md:justify-center md:grid-cols-2 gap-8">
+            <img
+                src="/Web-img/magnet.png"
+                alt="Scuba Diver"
+                className="w-xl h-xl rounded-xl flex-shrink-0 inline-block items-center justify-center cursor-pointer bg-white/10"
+                onClick={() => window.open("https://magnet-business.vercel.app")}
+              />
             <div className=" md:w-full h-xl inline-block items-center mt-4">
               <h3 className="text-3xl font-semibold  mb-3 ml-2 text-yellow-400">Magnet<div className="text-xl inline-block">(Business management Software)</div> :</h3>
               <h3 className="text-1xl font-semibold  mb-3 ml-2 text-gray-300">- Purpose: Built to help grow my father’s business by simplifying inventory, billing, and daily operations through a digital system.</h3>
@@ -82,12 +88,7 @@ const Project = () => {
                 Visit Project (Web-2)
               </a>
             </div>
-            <img
-                src="/Web-img/magnet.png"
-                alt="Scuba Diver"
-                className="w-xl h-xl rounded-xl flex-shrink-0 inline-block items-center justify-center cursor-pointer bg-white/10"
-                onClick={() => window.open("https://magnet-business.vercel.app")}
-              />
+            
           </div>
         </motion.div>
 
@@ -126,6 +127,12 @@ const Project = () => {
           viewport={{ once: true }}
         >
           <div className=" md:flex md:items-center md:justify-center md:grid-cols-2 gap-8">
+            <img
+                src="/Web-img/mini-cursor.png"
+                alt="Scuba Diver"
+                className="w-xl h-xl rounded-xl flex-shrink-0 inline-block items-center justify-center cursor-pointer bg-white/10"
+                onClick={() => window.open("https://github.com/MukhiVivek/Mini-Cursor")}
+              />
             <div className=" md:w-full h-xl inline-block items-center mt-4">
               <h3 className="text-3xl font-semibold  mb-3 ml-2 text-yellow-400">Mini Cursor AI :</h3>
               <h3 className="text-1xl font-semibold  mb-3 ml-2 text-gray-300">- I built a Mini Command Running Assistant using Python and the Gemini API. It works just like an intelligent coding partner — you give a query, and it follows a plan → action → observe → output process to execute system commands on your machine.</h3> 
@@ -137,12 +144,7 @@ const Project = () => {
                 Visit Project (Web-2)
               </a>
             </div>
-            <img
-                src="/Web-img/mini-cursor.png"
-                alt="Scuba Diver"
-                className="w-xl h-xl rounded-xl flex-shrink-0 inline-block items-center justify-center cursor-pointer bg-white/10"
-                onClick={() => window.open("https://github.com/MukhiVivek/Mini-Cursor")}
-              />
+            
           </div>
         </motion.div>
       </div>
