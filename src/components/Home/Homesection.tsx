@@ -1,14 +1,9 @@
 import { motion } from "framer-motion";
-import Navbar from "../Navbar";
 import Details from "./Details";
 
 const Home = () => {
   return (
     <section className="relative h-screen w-full overflow-hidden bg-gradient-to-b from-sky-300 to-sky-600 text-white">
-
-      <Navbar />
-
-
       {/* Home Content */}
       <div className="">
 
